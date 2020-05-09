@@ -39,6 +39,9 @@ body {
 .app.haze {
 	background-image: url('./assets/haze-bg.jpg');
 }
+.app.mist {
+	background-image: url('./assets/mist-bg.jpg');
+}
 
 main {
 	min-height: 100vh;

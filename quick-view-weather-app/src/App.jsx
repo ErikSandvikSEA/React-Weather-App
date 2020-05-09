@@ -56,6 +56,8 @@ const backgroundChanger = () => {
                     divClass = 'app snow'
                } else if (weather.weather[0].main === 'Haze'){
                     divClass = 'app haze'
+               } else if (weather.weather[0].main === 'Mist'){
+                    divClass = 'app mist'
                } else {
                    divClass = 'app'
                }
