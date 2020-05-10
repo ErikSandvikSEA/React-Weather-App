@@ -19,10 +19,11 @@ const App = () => {
                     .then(response => {
                          setWeather(response.data)
                          setQuery('')
-                         console.log(response.data)
+                         // console.log(response.data)
                     })
                     .catch(err => {
                          console.log(err)
+                         alert('Location Invalid - Please try another query.')
                     })
           }
      }
